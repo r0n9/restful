@@ -9,9 +9,9 @@
 	<name>R0N9</name>
 
 	<modules>
-		<module>../utils</module>
+		<module>utils</module>
 		<module>engine</module>
-		<module>../services</module>
+		<module>services</module>
 	</modules>
 
 	<build>
