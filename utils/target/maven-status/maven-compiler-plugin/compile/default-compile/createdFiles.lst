@@ -1,9 +1,11 @@
+vip\fanrong\REST\ServicesDispatcher.class
 vip\fanrong\REST\REST$HttpResponse.class
 vip\fanrong\REST\Status.class
 vip\fanrong\REST\REST$InputBody.class
 vip\fanrong\REST\ExecutionMonitor.class
 vip\fanrong\REST\RESTResult$Header.class
 vip\fanrong\REST\REST$RESTError.class
+vip\fanrong\REST\Dispatcher.class
 vip\fanrong\REST\REST$DispatcherException.class
 vip\fanrong\REST\Status$StatusCode.class
 vip\fanrong\REST\REST$Service.class
