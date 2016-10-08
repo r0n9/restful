@@ -18,8 +18,6 @@ import vip.fanrong.REST.REST.DispatcherException;
 /**
  * Default dispatcher implementation.
  * 
- * @author Mike Banos
- *
  */
 public class Dispatcher extends HttpServlet {
     /**
@@ -69,8 +67,8 @@ public class Dispatcher extends HttpServlet {
      */
     protected void setHeader(HttpServletResponse response) {
         try {
-            response.setHeader("X-Content-Pipeline",
-                    java.net.InetAddress.getLocalHost().getHostName());
+            response.setHeader("X-Content-Pipeline", java.net.InetAddress.getLocalHost()
+                    .getHostName());
         } catch (UnknownHostException e) {
             log.error("Error retrieving local host information.", e);
         }
@@ -84,7 +82,7 @@ public class Dispatcher extends HttpServlet {
      * @param response The servlet response.
      */
     private void sendError(DispatcherException e, ServletOutputStream os,
-                           HttpServletResponse response) {
+            HttpServletResponse response) {
         log.warn("DispatcherException", e);
 
         response.setStatus(HTTP_STATUS_500);
